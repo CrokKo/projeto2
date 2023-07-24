@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+:root {
+    --preto: #00030c;
+    --branco: #fff;
+    --azul: #167bf7;
+    --cinza: #c0c0c0;
+    --azulhover: #688bff;
+    
+    --font: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--font);
+    font-weight: 400;
+    height: 100vh;
+}
+
+.topo__grupo {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    background-image: url("/imgs/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 5%;
+}
+
+.topo__grupo__titulo {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+.topo__grupo__combo {
+    margin: 1.37rem 0 3.37rem 0;
+}
+
+.topo__grupo__link {
+    text-decoration: none;
+    display: block;
+    background-color: var(--azul);
+    padding: 1rem;
+    color: var(--branco);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.topo__grupo__link:hover{
+    background-color: var(--azulhover);
+    color: var(--preto);
+}
+
+.link2 {
+    background: none;
+    border: 2px solid var(--branco);
+    margin-bottom: 0.62rem;
+}
+
+.topo__grupo__texto {
+    font-size: 0.75rem;
+    color: var(--cinza);
+}
+
+.grupo__1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 0 5%;
+    font-size: 3rem;
+    font-weight: 700;
+    height: 80vh;
+}
+
+.grupo__1__img {
+    width: 80%;
+}
+
+.grupo__1__conteudo {
+    padding: 2rem;
+}
+
+.grupo__1__conteudo__paragrafo {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.link3 {
+    font-size: 1rem;
+    display: inline-block;
+    font-weight: 400
+}
+
+.grupo__dispositivos {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.grupo__dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    font-size: 1.75rem;
+    list-style: none;    
+    margin: 5rem 0;
+}
+
+.footer {
+    text-decoration: none;
+    text-align: center;
+    font-size: .75rem;
+    margin: 5rem 3rem;
+}
+
+.footer__imagem {
+    margin: 1rem;
+}
+
+.lista__links {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer__links a{
+    text-decoration: none;
+    margin-left: 1rem;
+    color: var(--branco);
+}
+
+.footer__links a:hover{
+    color:  var(--azul);
+}
+
+.footer__texto {
+    margin-top: 1rem;
+    color: var(--cinza);
+}
